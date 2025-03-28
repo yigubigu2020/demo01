@@ -7,6 +7,6 @@ func main() {
 	fmt.Println("New feature")
 	fmt.Println("Hot bug fix2")
 	fmt.Println("bug fix")
-	fmt.Println("bug fix2")
+	fmt.Println("bug fix2 twice")
 	fmt.Println("New feature2")
 }
