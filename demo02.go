@@ -20,4 +20,6 @@ func main() {
 	fmt.Println("bug fix2 twice")
 	fmt.Println("New feature2")
 	fmt.Println("New feature of function canJump")
+	n := 1
+	fmt.Println(canJump(n))
 }
