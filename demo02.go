@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func canJump(n int) int {
-	dp := make([]int, n+1)
-	dp[0] = 1
-	dp[1] = 1
+	nums := make([]int, n+1)
+	nums[0] = 1
+	nums[1] = 1
 	for i := 2; i <= n; i++ {
-		dp[i] = dp[i-1] + dp[i-2]
+		nums[i] = nums[i-1] + nums[i-2]
 	}
-	return dp[n]
+	return nums[n]
 }
 
 func main() {
